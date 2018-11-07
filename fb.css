@@ -1,0 +1,79 @@
+
+body{
+  margin: 0;
+
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #3b5998;
+}
+
+
+/* #facebook {
+  display: flex;
+  background-color: darkblue;
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  width: 100%;
+} */
+
+#facebook {
+display: flex;
+justify-content: flex-start;
+color: white;
+
+}
+
+.header-items{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.connect_signup{
+  display: flex;
+  background-color: #dfe3ee;
+}
+
+.container-connect{
+  display: block;
+  width: 564;
+  height:377;
+  margin-right: 15.999px;
+}
+
+#connect-title{
+  padding: 42px 0 24px;
+
+}
+
+.connect-item{
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+  padding-bottom: 10px
+}
+
+.connect-img{
+ height: 55.992;
+ width: 55.992;
+}
+
+.connect-subitem{
+
+}
+
+
+.container_signup{
+
+}
